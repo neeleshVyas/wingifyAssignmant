@@ -21,6 +21,11 @@ mysql -u<your-username> -p<your-password> < sql/dump.sql
 * run composer autoloader command to autoload classes
 ```
 composer dump-autoload
+
+in case you get error composer not found run following two commands before it
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
 ```
 * replace database configurations in `config/database.php` file
 * run command to start the server on localhost listening to 8000 port
