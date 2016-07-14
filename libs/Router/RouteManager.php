@@ -78,6 +78,7 @@ class RouteManager
     private function windUp()
     {
         # more stuff can be done like response listeners etc.
+        # exception Listiner and corresponding Extensions as well
         exit();
     }
 
