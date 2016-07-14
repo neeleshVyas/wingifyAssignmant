@@ -31,6 +31,9 @@ php -S localhost:8000 index.php
 
 ### List of RestfulAPI methods
 
+TEST USERNAME  :neel
+TEST PASSWORD  :neel123
+
 
 | paths | params | methods | description  | response
 |---|---|---|---|---|
@@ -40,6 +43,8 @@ php -S localhost:8000 index.php
 | `/item` | price, itemName | POST | adds a new item | {"item":{"itemName":"Book2","price":"3000","itemId":"3"}} |
 | `/item/{id}` | itemId | POST | updates existing details of item |  {"item":{"itemId":"6","itemName":" Updated Book","price":"500"}} |
 | `/item/{id}` | | DELETE | deletes a specific item | { "status": true } |
+
+you can also run docker set up for this application by just docker build and docker run commands 
 
 here is [link to postman][] for more details
 
