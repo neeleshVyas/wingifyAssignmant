@@ -1,6 +1,6 @@
 # Wingify Online Store
 
-RestfulAPI for adding/deleting/editing items in Cart
+RestfulAPI for Managing Items in Cart
 
 ### Setup Instructions
 
@@ -11,7 +11,7 @@ git clone https://github.com/neeleshVyas/wingifyAssignmant.git
 ```
 * change directory to the project directory
 ```
-cd wingify-cart
+cd wingifyAssignmant
 ```
 * run command to dump the mysql database
 ```
@@ -34,10 +34,10 @@ php -S localhost:8000 index.php
 | paths | params | methods | description  | response
 |---|---|---|---|---|
 | `/login` | username, password | POST | authenticate user | {"status":true,"message":"Already LoggedIn"} |
-| `/item`  |  | GET | lists all the items | {"items":[{"itemId":"6","itemName":"Music CD","price":"300"}]}
-| `/item/{id}` | itemId | GET | shows details of item of given itemId | {"item":{"itemId":"6","itemName":"Music CD","price":"300"}} |
-| `/item` | price, itemName | POST | adds a new item | {"item":{"itemName":"Music CD","price":"300","itemId":"6"}} |
-| `/item/{id}` | itemId | POST | updates existing details of item |  {"item":{"itemId":"6","itemName":"Game of Thrones Book","price":"500"}} |
+| `/item`  |  | GET | lists all the items | {"items":[{"itemId":"2","itemName":"Book1","price":"200"}]}
+| `/item/{id}` | itemId | GET | shows details of item of given itemId | {"item":{"itemId":"3","itemName":"Book2","price":"3000"}} |
+| `/item` | price, itemName | POST | adds a new item | {"item":{"itemName":"Book2","price":"3000","itemId":"3"}} |
+| `/item/{id}` | itemId | POST | updates existing details of item |  {"item":{"itemId":"6","itemName":" Updated Book","price":"500"}} |
 | `/item/{id}` | | DELETE | deletes a specific item | { "status": true } |
 
 here is [link to postman][] for more details
