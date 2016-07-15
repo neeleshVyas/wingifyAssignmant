@@ -2,9 +2,9 @@
 
 return array(
 	'mysql' => array(
-		'host'	=> 'localhost',
-		'user' => 'root',
-		'password' => '',
-		'database' => 'wingify'
+		'host'	=> 'sql6.freemysqlhosting.net',
+		'user' => 'sql6127873',
+		'password' => 'DcTB3S5dhR',
+		'database' => 'sql6127873'
 	)
 );
