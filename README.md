@@ -17,6 +17,8 @@ cd wingifyAssignmant
 * run command to dump the mysql database
 ```
 mysql -u<your-username> -p<your-password> < sql/dump.sql
+
+ In file config/database.php add your username and password for mysql
 ```
 * run composer autoloader command to autoload classes
 ```
