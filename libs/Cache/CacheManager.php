@@ -24,7 +24,6 @@ class CacheManager
     {
         $this->cacheMap[$key] = $value;
     }
-
     public function get( $key )
     {
         return isset($this->cacheMap[$key]) ? $this->cacheMap[$key] : null;

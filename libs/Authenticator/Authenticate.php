@@ -30,7 +30,6 @@ class Authenticate
       {
             $status = false;
             $message = null;
-
             $user = $this->getUserByCredentials( $username, $password );
             if( $user instanceof UserModel ){
                   $this->setUserSession($user);
