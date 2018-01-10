@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wingify
+-- Host: localhost    Database: Online Store
 -- ------------------------------------------------------
 -- Server version	5.5.49-0ubuntu0.14.04.1
 
@@ -69,5 +69,5 @@ CREATE TABLE `users` (
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-INSERT INTO users values(1,'neel',md5('neel123'));
+INSERT INTO users values(1,'admin',md5('admin'));
 -- Dump completed on 2016-05-19  0:17:51

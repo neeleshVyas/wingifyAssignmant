@@ -1,5 +1,5 @@
 
-# Wingify Online Store
+# Online Store
 
 RestfulAPI for Managing Items in Cart
 
@@ -8,11 +8,11 @@ RestfulAPI for Managing Items in Cart
 * `git`, `php`, `mysql` and `composer` are required as prerequisites.
 * clone the repository in a folder, use
 ```
-git clone https://github.com/neeleshVyas/wingifyAssignmant.git
+git clone https://github.com/ikjotKaur/OnlineStore.git
 ```
 * change directory to the project directory
 ```
-cd wingifyAssignmant
+cd OnlineStore
 ```
 * run command to dump the mysql database
 ```
@@ -38,8 +38,8 @@ php -S localhost:8000 index.php
 
 ### List of RestfulAPI methods
 
-TEST USERNAME  :neel
-TEST PASSWORD  :neel123
+TEST USERNAME  :admin
+TEST PASSWORD  :admin
 
 
 | paths | params | methods | description  | response
@@ -51,7 +51,6 @@ TEST PASSWORD  :neel123
 | `/item/{id}` | itemId | POST | updates existing details of item |  {"item":{"itemId":"6","itemName":" Updated Book","price":"500"}} |
 | `/item/{id}` | | DELETE | deletes a specific item | { "status": true } |
 
-you can also run docker set up for this application by just docker build and docker run commands 
 
 here is [link to postman][] for more details
 

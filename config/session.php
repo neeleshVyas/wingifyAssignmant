@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'name' => '_wingify'
+    'name' => '_onlineStore'
 );
 
 
